@@ -9,17 +9,17 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header {
+header {
     padding: 20px;
     background-color: #2a607c;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -27,7 +27,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -131,6 +131,4 @@ footer div {
     text-align: right;
 }
 
-section {
-    padding: 60px;
-}
+
